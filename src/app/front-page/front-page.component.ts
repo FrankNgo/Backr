@@ -23,6 +23,18 @@ new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799
 new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799. The ultimate CITY e-Bike from the bicycle capital of the world, Denmark. Save 60%!"
 ,"TRANSPORTATION", 124942,38,"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_273,w_273/atmvv97kmclpcwnrimeh.jpg",1),
 new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799. The ultimate CITY e-Bike from the bicycle capital of the world, Denmark. Save 60%!"
+,"TRANSPORTATION", 124942,38,"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_273,w_273/atmvv97kmclpcwnrimeh.jpg",1),
+new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799. The ultimate CITY e-Bike from the bicycle capital of the world, Denmark. Save 60%!"
+,"TRANSPORTATION", 124942,38,"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_273,w_273/atmvv97kmclpcwnrimeh.jpg",1),
+new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799. The ultimate CITY e-Bike from the bicycle capital of the world, Denmark. Save 60%!"
+,"TRANSPORTATION", 124942,38,"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_273,w_273/atmvv97kmclpcwnrimeh.jpg",1),
+new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799. The ultimate CITY e-Bike from the bicycle capital of the world, Denmark. Save 60%!"
+,"TRANSPORTATION", 124942,38,"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_273,w_273/atmvv97kmclpcwnrimeh.jpg",1),
+new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799. The ultimate CITY e-Bike from the bicycle capital of the world, Denmark. Save 60%!"
+,"TRANSPORTATION", 124942,38,"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_273,w_273/atmvv97kmclpcwnrimeh.jpg",1),
+new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799. The ultimate CITY e-Bike from the bicycle capital of the world, Denmark. Save 60%!"
+,"TRANSPORTATION", 124942,38,"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_273,w_273/atmvv97kmclpcwnrimeh.jpg",1),
+new Item("STRØM CITY. A Feature-Packed And Affordable e-Bike","Priced from $799. The ultimate CITY e-Bike from the bicycle capital of the world, Denmark. Save 60%!"
 ,"TRANSPORTATION", 124942,38,"https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_273,w_273/atmvv97kmclpcwnrimeh.jpg",1)
   //  new Post("Giant Squid makes an appearance in Tokyo Bay", " RyanSmith",
   //      "r/TheDepthsBelow","https://b.thumbs.redditmedia.com/ydCkUxZoKvEVr1ns600xdd-NOvUWg_Pt8sFJCOg4ehE.jpg",32.5,2),
