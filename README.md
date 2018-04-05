@@ -54,3 +54,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Background Images From
 
 https://www.pexels.com/search/wide/
+
+## Features To Add
+
+  * Additional Page Info/Content
+  * Filtering front Page
+  * Additional Page Styling
+  * Deploying Application
+  * User Authentication
+  * Protecting Routes
+  * Route Guard
