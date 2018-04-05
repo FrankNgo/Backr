@@ -32,4 +32,9 @@ export class ItemService {
       itemImage: localUpdatedItem.itemImage
     });
   }
+
+  deleteItem(localItemToDelete) {
+    var itemEntryInFirebase = this.getItemById(localItemToDelete.$key);
+    itemEntryInFirebase.remove();
+  }
 }
