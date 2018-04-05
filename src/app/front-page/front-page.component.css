@@ -15,6 +15,7 @@ li {
     float: left;
 }
 
+
 #navLinks {
     display: block;
     color: black;
@@ -155,4 +156,16 @@ h4 {
 
 .listItems{
   padding-left: 150px;
+}
+
+.titleText{
+  left: 0;
+  position:absolute;
+  text-align:center;
+  top: 150px;
+  left: 500px;
+  width: 50%;
+  color: white;
+  border: 8px double white;
+  padding: 10px;
 }
