@@ -1,3 +1,45 @@
-<p>
-  add-item works!
-</p>
+<div class="container newItems">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Add New Item to Back</h3>
+      <hr>
+    </div>
+    <div class="panel-body">
+      <div>
+        <div class="firstLabel">
+          <label>Item Title:</label>
+          <br>
+          <input #newTitle>
+        </div>
+        <div>
+          <label>Item Description:</label>
+          <br>
+          <textarea #newDescription></textarea>
+        </div>
+        <div>
+          <label>Item Category:</label>
+          <br>
+          <input #newCategory width>
+        </div>
+        <div>
+          <label>Item Money So Far:</label>
+          <br>
+          <input #newMoneySoFar>
+        </div>
+        <div>
+          <label>Item Days Left:</label>
+          <br>
+          <input #newDaysLeft>
+        </div>
+        <div>
+          <label>Item Image:</label>
+          <br>
+          <input #newImage>
+          <br>
+          <br>
+        </div>
+        <button (click)="submitForm(newTitle.value, newDescription.value, newCategory.value, newMoneySoFar.value, newDaysLeft.value, newImage.value); newTitle.value=''; newDescription.value=''; newCategory.value=''; newMoneySoFar.value=''; newDaysLeft.value=''; newImage.value=''">Add</button>
+      </div>
+    </div>
+  </div>
+</div>

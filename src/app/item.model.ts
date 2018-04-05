@@ -5,6 +5,5 @@ export class Item {
     public category: string,
     public moneySoFar: number,
     public daysLeft: number,
-    public itemImage: string,
-    public id: number) { }
+    public itemImage: string) { }
 }

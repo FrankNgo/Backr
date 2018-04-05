@@ -1,0 +1,22 @@
+.newItems{
+  text-align: center;
+  padding: 60px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  resize: none;
+}
+
+input{
+  width: 300px;
+}
+
+.firstLabel{
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 40px;
+}

@@ -12,12 +12,12 @@ import { ItemService } from '../item.service';
 })
 
 export class FrontPageComponent implements OnInit {
-   items: FirebaseListObservable<any[]>;
-   constructor(private router: Router, private itemService: ItemService) {}
-   ngOnInit(){
-     this.items = this.itemService.getItems();
-   }
+  items: FirebaseListObservable<any[]>;
+  constructor(private router: Router, private itemService: ItemService) { }
+  ngOnInit() {
+    this.items = this.itemService.getItems();
+  }
   goToDetailPage(clickedItem: Item) {
-    this.router.navigate(['items', clickedItem.id]);
+    // this.router.navigate(['items', clickedItem.id]);
   };
 }

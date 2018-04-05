@@ -9,6 +9,7 @@ ul {
     overflow: hidden;
     font-family: "Benton Sans","Helvetica","sans-serif";
     font-size: 20px;
+    border-bottom: 1px solid #E5E8E8;
 }
 
 li {
