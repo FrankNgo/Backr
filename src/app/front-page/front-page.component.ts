@@ -17,7 +17,7 @@ export class FrontPageComponent implements OnInit {
   ngOnInit() {
     this.items = this.itemService.getItems();
   }
-  goToDetailPage(clickedItem: Item) {
-    // this.router.navigate(['items', clickedItem.id]);
+  goToDetailPage(clickedItem) {
+    this.router.navigate(['items', clickedItem.$key]);
   };
 }

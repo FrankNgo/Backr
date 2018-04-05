@@ -1,5 +1,6 @@
 <div>
-  <h3>{{itemToDisplay.title}}</h3>
-  <h4>{{itemToDisplay.description}}</h4>
-  <p>{{itemToDisplay.category}}</p>
+  <img src="{{(itemToDisplay | async)?.itemImage}}">
+  <h3>{{(itemToDisplay | async)?.title}}</h3>
+  <h4>{{(itemToDisplay | async)?.description}}</h4>
+  <p>{{(itemToDisplay | async)?.category}}</p>
 </div>

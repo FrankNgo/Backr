@@ -3,7 +3,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { Item } from '../item.model';
 import { ItemService } from '../item.service';
-
+import { FirebaseObjectObservable } from 'angularfire2/database';
 
 
 @Component({
@@ -14,8 +14,8 @@ import { ItemService } from '../item.service';
 })
 
 export class ItemDetailsComponent implements OnInit {
-    itemId: number = null;
-    itemToDisplay: Item;
+  itemId: string;
+  itemToDisplay;
 
   constructor(
     private route: ActivatedRoute,
@@ -25,10 +25,9 @@ export class ItemDetailsComponent implements OnInit {
 
 
   ngOnInit() {
-    // this.route.params.forEach((urlParameters) => {
-    //   this.itemId = parseInt(urlParameters['id']);
-    // });
-    // this.itemToDisplay = this.itemService.getItemById(this.itemId);
+    this.route.params.forEach((urlParameters) => {
+     this.itemId = urlParameters['id'];
+   });
+   this.itemToDisplay = this.itemService.getItemById(this.itemId);
   }
-
 }

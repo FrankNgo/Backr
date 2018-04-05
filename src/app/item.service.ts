@@ -14,14 +14,10 @@ export class ItemService {
   }
 
   addItem(newItem: Item) {
-   this.items.push(newItem);
- }
+    this.items.push(newItem);
+  }
 
-  getItemById(itemId: number) {
-    // for (var i = 0; i <= ITEMS.length - 1; i++) {
-    //   if (ITEMS[i].id === itemId) {
-    //     return ITEMS[i];
-    //   }
-    // }
+  getItemById(itemId: string) {
+    return this.database.object('items/' + itemId);
   }
 }
