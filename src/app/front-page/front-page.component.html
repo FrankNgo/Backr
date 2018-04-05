@@ -17,19 +17,24 @@
         <li><a class="sideBar" routerLink="">Community Projects</a></li><br>
       </ul>
     </div> -->
-  <div class="listItems">
-    <div class="grid grid-pad">
-      <div *ngFor="let item of items | async" (click)="goToDetailPage(item)" class="col-1-4" id="itemImages">
-        <div class="module item">
-          <img src="{{item.itemImage}}">
-          <h2 id="itemTitle">{{ item.title }}</h2>
-          <h4 id="itemDescription">{{ item.description }}</h4>
-          <h4 id="itemCategory">{{ item.category }}</h4>
-          <h4 id="itemNumbers">${{ item.moneySoFar }}</h4>
-          <h4 id="itemNumbers">{{ item.daysLeft }} days left</h4>
+    <div class="listItems">
+      <div class="grid grid-pad">
+        <div *ngFor="let item of items | async" class="col-1-4" id="itemImages">
+          <div class="module item">
+            <img src="{{item.itemImage}}">
+            <h2 (click)="goToDetailPage(item)" id="itemTitle">{{ item.title }}</h2>
+            <h4 id="itemDescription">{{ item.description }}</h4>
+            <h4 id="itemCategory">{{ item.category }}</h4>
+            <h4 id="itemNumbers">${{ item.moneySoFar }}</h4>
+            <h4 id="itemNumbers">{{ item.daysLeft }} days left</h4>
+            <div *ngIf="currentRoute === '/addItem'">
+              {{item.description}}
+              <hr>
+              <app-edit-item [selectedItem]="item"></app-edit-item>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   </div>
 </div>

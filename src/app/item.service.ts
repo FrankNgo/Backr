@@ -20,4 +20,16 @@ export class ItemService {
   getItemById(itemId: string) {
     return this.database.object('items/' + itemId);
   }
+
+  updateItem(localUpdatedItem) {
+    var itemEntryInFirebase = this.getItemById(localUpdatedItem.$key);
+    itemEntryInFirebase.update({
+      title: localUpdatedItem.title,
+      description: localUpdatedItem.description,
+      category: localUpdatedItem.category,
+      moneySoFar: localUpdatedItem.moneySoFar,
+      daysLeft: localUpdatedItem.daysLeft,
+      itemImage: localUpdatedItem.itemImage
+    });
+  }
 }

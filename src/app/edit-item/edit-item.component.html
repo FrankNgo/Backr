@@ -1,0 +1,27 @@
+<h4>Edit Items</h4>
+
+<label>New Item Title:</label>
+<input [(ngModel)]="selectedItem.title">
+<br>
+
+<label>New Item Description:</label>
+<input [(ngModel)]="selectedItem.description">
+<br>
+
+<label>New Item Category:</label>
+<input [(ngModel)]="selectedItem.category">
+<br>
+
+<label>New Item Money So Far:</label>
+<input [(ngModel)]="selectedItem.moneySoFar">
+<br>
+
+<label>New Item Days Left:</label>
+<input [(ngModel)]="selectedItem.daysLeft">
+<br>
+
+<label>New Item Image:</label>
+<input [(ngModel)]="selectedItem.itemImage">
+<br>
+
+<button (click)="beginUpdatingItem(selectedItem)">Update</button>

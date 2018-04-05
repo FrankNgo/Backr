@@ -13,10 +13,16 @@ import { ItemService } from '../item.service';
 
 export class FrontPageComponent implements OnInit {
   items: FirebaseListObservable<any[]>;
-  constructor(private router: Router, private itemService: ItemService) { }
+  currentRoute: string = this.router.url;
+
+  constructor(
+    private router: Router,
+    private itemService: ItemService) { }
+
   ngOnInit() {
     this.items = this.itemService.getItems();
   }
+
   goToDetailPage(clickedItem) {
     this.router.navigate(['items', clickedItem.$key]);
   };
