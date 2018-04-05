@@ -17,6 +17,11 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
 import { AddItemComponent } from './add-item/add-item.component';
 import { EditItemComponent } from './edit-item/edit-item.component';
+import { AuthenticationComponent } from './authentication/authentication.component';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { PublicComponent } from './public/public.component';
+
+
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -38,7 +43,9 @@ export const firebaseConfig = {
     AboutUsComponent,
     ItemDetailsComponent,
     AddItemComponent,
-    EditItemComponent
+    EditItemComponent,
+    AuthenticationComponent,
+    PublicComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +53,9 @@ export const firebaseConfig = {
     HttpModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

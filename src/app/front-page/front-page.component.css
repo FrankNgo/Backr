@@ -164,7 +164,8 @@ h4 {
   position:absolute;
   text-align:center;
   top: 150px;
-  left: 500px;
+  /*left: 500px;*/
+  margin-left: 25%;
   width: 50%;
   color: white;
   border: 8px double white;

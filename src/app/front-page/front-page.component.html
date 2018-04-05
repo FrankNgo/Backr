@@ -20,9 +20,9 @@
     <div class="listItems">
       <div class="grid grid-pad">
         <div *ngFor="let item of items | async" class="col-1-4" id="itemImages">
-          <div class="module item">
+          <div class="module item"(click)="goToDetailPage(item)" >
             <img src="{{item.itemImage}}">
-            <h2 (click)="goToDetailPage(item)" id="itemTitle">{{ item.title }}</h2>
+            <h2 id="itemTitle">{{ item.title }}</h2>
             <h4 id="itemDescription">{{ item.description }}</h4>
             <h4 id="itemCategory">{{ item.category }}</h4>
             <h4 id="itemNumbers">${{ item.moneySoFar }}</h4>

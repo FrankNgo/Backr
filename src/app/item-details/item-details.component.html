@@ -1,6 +1,18 @@
-<div>
-  <img src="{{(itemToDisplay | async)?.itemImage}}">
-  <h3>{{(itemToDisplay | async)?.title}}</h3>
-  <h4>{{(itemToDisplay | async)?.description}}</h4>
-  <p>{{(itemToDisplay | async)?.category}}</p>
+<div class="container details">
+  <div class="row">
+    <div class="column">
+      <div>
+        <img src="{{(itemToDisplay | async)?.itemImage}}">
+      </div>
+    </div>
+    <div class="column">
+      <div>
+        <h3>{{(itemToDisplay | async)?.title}}</h3>
+        <h4>{{(itemToDisplay | async)?.description}}</h4>
+        <p>{{(itemToDisplay | async)?.category}}</p>
+        <h5>${{(itemToDisplay | async)?.moneySoFar}}</h5>
+        <h5>{{(itemToDisplay | async)?.daysLeft}} Days Left</h5>
+      </div>
+    </div>
+  </div>
 </div>
