@@ -20,6 +20,7 @@ import { EditItemComponent } from './edit-item/edit-item.component';
 import { AuthenticationComponent } from './authentication/authentication.component';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { PublicComponent } from './public/public.component';
+import { PrivateComponent } from './private/private.component';
 
 
 
@@ -45,7 +46,8 @@ export const firebaseConfig = {
     AddItemComponent,
     EditItemComponent,
     AuthenticationComponent,
-    PublicComponent
+    PublicComponent,
+    PrivateComponent
   ],
   imports: [
     BrowserModule,
