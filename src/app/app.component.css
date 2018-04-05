@@ -19,7 +19,7 @@ li {
     display: block;
     color: black;
     text-align: center;
-    padding: 4px 20px;
+    padding: 5px 20px;
     text-decoration: none;
     font-size: 90%;
 }
@@ -30,7 +30,7 @@ li {
 }
 
 #navLinks{
-  padding-top: 15px;
+  padding-top: 16px;
 }
 
 .title-color {
@@ -45,20 +45,17 @@ li {
   width: 160px;
   color: #9B59B6;
   font-weight: 700;
+  padding-right: 30px;
 }
 
 img.resize {
-  width: 3000px;
-  height: 475px;
-  margin-bottom: 45px;
-  background-size: cover;
-
+  width:100%;
+  height: 400px;
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
 }
 
-img.resize {
-  max-width:100%;
-  max-height:60%;
-}
 
 #sideBar{
   padding-bottom: 20px;
@@ -66,13 +63,13 @@ img.resize {
 }
 
 .titleText{
-  align-items: center;
-  text-align: center;
-  position: absolute;
-  top: 120px;
-  left: 23%;
+  left: 0;
+  position:absolute;
+  text-align:center;
+  top: 150px;
+  left: 500px;
+  width: 50%;
   color: white;
-  border: 1.5px solid white;
-  margin-left: auto;
-  padding: 15px;
+  border: 8px double white;
+  padding: 10px;
 }
