@@ -97,6 +97,7 @@ h4 {
 .module{
   border: 1px solid #797D7F;
   min-height: 560px;
+  max-height: 1025px;
 }
 .module:hover {
   background-color: #EEE;

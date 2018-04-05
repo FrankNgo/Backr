@@ -28,7 +28,6 @@
             <h4 id="itemNumbers">${{ item.moneySoFar }}</h4>
             <h4 id="itemNumbers">{{ item.daysLeft }} days left</h4>
             <div *ngIf="currentRoute === '/addItem'">
-              {{item.description}}
               <hr>
               <app-edit-item [selectedItem]="item"></app-edit-item>
             </div>
